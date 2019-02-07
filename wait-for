@@ -65,8 +65,7 @@ do
     usage 0
     ;;
     *)
-    echoerr "Unknown argument: $1"
-    usage 1
+    break
     ;;
   esac
 done
